@@ -23,9 +23,9 @@ function chk_firewall() {
 function install_sea() {
 	cd /home/MyCloud
 	#下载安装包6.2.3 64bit
-	wget http://seafile-downloads.oss-cn-shanghai.aliyuncs.com/seafile-server_6.2.3_x86-64.tar.gz
+	wget http://seafile-downloads.oss-cn-shanghai.aliyuncs.com/seafile-server_7.0.3_x86-64.tar.gz
 	#解压
-	tar -zxvf seafile-server_6.2.3_x86-64.tar.gz
+	tar -zxvf seafile-server_7.0.3_x86-64.tar.gz
 	mkdir installed
 	mv seafile-server*.tar.gz ./installed
 	mv seafile-server-6* seafile-server
